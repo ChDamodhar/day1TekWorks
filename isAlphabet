@@ -1,0 +1,7 @@
+def isAlphabet(str):
+    if(str.isalpha()):
+        print("Alphabet")
+    else:
+        print("Not an alphabet")
+x=input("Enter string:")
+isAlphabet(x)
